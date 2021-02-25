@@ -87,7 +87,9 @@ p {
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%; 
+    width: 20%;
+
+    
     height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #2589bd;
@@ -125,15 +127,17 @@ p {
 /* sets max height of the images used in the '.contents' children  */
 .search-engine-optimization img, .online-reputation-management img ,.social-media-marketing img  {
     max-height: 200px;
+    display:inline-block;
 }
 
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    display: inline-block;
     margin-bottom: 20px;
     font-size: 36px;
 }
 /* outlines general properties for the footer parent */
 .footer {
-    padding: 30px 0px 50px;
+    padding: 30px 0px 0px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     text-align: center;
